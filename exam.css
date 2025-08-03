@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: jacob;
+    src: url("font/JakobC_0.otf");
+}
+
+form{
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 500px;
+    border: 10px double #c7eff7;
+    background-color: #4486ad;
+    /* border-radius: 10px; */
+    display: block;
+    padding: 20px; 
+    box-shadow: 0 0 15px;
+}
+
+
+body{
+  background-image: url('https://www.oboykin.ru/assets/images/products/12674/700275u.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* body::before{
+  content: "";
+  background-image: url('https://www.oboykin.ru/assets/images/products/12674/700275u.jpg');
+  position: absolute;
+  opacity: 0.6;
+  z-index: -1;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 100%;
+} */
+
+input[type="submit"]{
+    width:150px;
+    height:30px;
+    background-color: #c7eff7;
+    box-shadow: 0 0 15px;
+    cursor: pointer;
+    font-family: jacob;
+}
+
+input[type="submit"]:hover{
+ background-color:#cbeaee;
+ box-shadow: none;
+}
+
+input[type="search"]{
+    width:150px;
+    height:30px;
+    background-color: #c7eff7;
+    box-shadow: 0 0 15px;
+    font-family: jacob;  
+}
+
+select{
+    width:150px;
+    height:29px;
+    background-color: #c7eff7;
+    box-shadow: 0 0 15px;
+    font-family: jacob;    
+}
+
+img{
+width: 350px;
+height: 550px;
+margin: 20px;
+}
+
+section{
+    width: 45%;
+   border: 10px double  #4486ad;
+    margin: auto;
+    background-color: #f2f3f4;
+}
+
+#modal{
+   
+    width: 60%;
+    border: 10px double  #4486ad;
+    margin: auto;
+    background-color: #f2f3f4;
+    padding: 30px;
+    font-family: jacob;
+    font-size: 1.3em;
+    box-shadow: 0 0 15px;
+}
+
+
+button{
+    width: 100px;
+    margin: 30px;
+    border: 2px solid #4486ad;
+    cursor: pointer;
+}
